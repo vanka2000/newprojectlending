@@ -1,0 +1,93 @@
+.photo_visitors{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+
+.header_photo_visitors{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin: auto;
+    justify-content: center;
+   
+    h6{
+        font-family: 'El Messiri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 140%;
+        color: white;
+     
+        }
+    
+:nth-last-child(1){
+    transform: scale(-1, 1);
+    }
+    }
+
+
+.carousel {
+  border: 7px solid rgba(41, 75, 139, 0.507);
+  border-radius: 10px;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 30px;
+    padding-top: 80px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    
+  }
+  .carousel::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+  
+  .carousel__container {
+    white-space: nowrap;
+    margin-bottom: 50px ;
+    padding-bottom: 10px;
+    display: inline-block;
+    // margin: auto;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  
+  .carousel-item {
+    
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    // background-image: url(../img/poolluxmaldives.png);
+    overflow: hidden;
+    margin-right: 15px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: 1000ms all;
+    transition: 1000ms all;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+    position: relative;
+  }
+  
+  .carousel-item:hover ~ .carousel-item {
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(220px, 0, 0);
+  }
+  
+  .carousel__container:hover .carousel-item {
+    opacity: 0.3;
+  }
+  
+  .carousel__container:hover .carousel-item:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  
+
+}

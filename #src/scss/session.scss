@@ -1,0 +1,73 @@
+.session{
+    margin-bottom: 211px;
+    width: 1296px;
+    margin: auto;
+}
+.title_text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    color: white;
+    font-family: 'El Messiri';
+}
+.title_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 482px;
+    margin: auto;
+    :nth-last-child(1){
+        transform: scale(-1, 1);
+    }
+    margin-bottom: 80px;
+}
+.session_container{
+    display: flex;
+    gap: 24px;
+}
+.session_container_column{
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+    gap: 24px;
+    align-items: center;
+    height: 540px;
+}
+.session_card{
+    background: url(../img/cardSmallImg.png);
+    background-size: cover; //заполнение картинкой всего блока в котором она подключена
+    background-repeat: no-repeat; //чтоб оно не повторялось
+    width: 100%;
+    height: 258px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.big_card{
+    height: 540px;
+    background: url(../img/cardImg.png);
+}
+
+.active_card{
+    transform: scaleX(-1);
+}
+.flip1, .flip2{
+display: none;
+font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.flip2{
+    font-size: 20px;
+}
+.opacity{
+    display: flex;
+    
+}

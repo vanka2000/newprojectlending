@@ -1,0 +1,58 @@
+.container_feedback{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.slider_feedback_container{
+    // margin: auto;
+display: flex;
+overflow: hidden;
+width: 100%;
+position: relative;
+gap: 80px;
+left: 50px;
+align-items: center ;
+height: 350px;
+margin-bottom: 20px;
+padding: 0 700px 0 580px;
+    .slide_feedback{
+        min-width: 500px;
+        height: 276px;
+        background: #018ABE;
+        border-radius: 10px;
+        padding: 50px 60px 56px 60px;
+        box-sizing: border-box; //запрещает падингам расширять контейнеер
+    }
+    h4{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 140%;
+        color: white;
+        margin-bottom: 25px;
+    }
+    p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 140%;
+        color: white;
+    }
+}
+.nav_bar{
+    width: 124px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+    .pagination{
+        background: white;
+        width: 16px;
+        height: 16px;
+        border-radius: 3px;
+        margin-bottom: 50px;
+    }
+}
+.scale{
+    transform: scale(1.2);
+}
