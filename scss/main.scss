@@ -1,0 +1,56 @@
+main{
+    width: 1296px;
+    margin: auto;
+}
+.slider{
+    width: 1296px;
+    height: 600px;
+    margin: 48px 0 152px;
+    overflow: hidden;
+}
+.slider_container{
+    overflow-x: scroll;
+    display: flex;
+}
+.slide{
+    min-width: 1296px;
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 136px;
+    box-sizing: border-box; //запрещает увеличение блока за счет паддингов
+    p{
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    h1{
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 140%;
+        text-align: center;
+        width: 587px;
+        display: block;
+        margin: auto;
+    }
+}
+.slideImg1{
+    background: url(../img/main_img.png);
+   
+}
+.slideImg2{
+    background: url(../img/summer-background-of-sea-water_64049-160.webp);
+    border-radius: 10px;
+}
+.slideImg3{
+    background: url(../img/nastol.com_.ua-66650.jpg);
+}
+.slideImg4{
+    background: url(../img/article.jpg);
+}

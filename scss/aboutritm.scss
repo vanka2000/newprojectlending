@@ -1,0 +1,101 @@
+.aboutritm{
+    width: 1076px;
+    height: 1024px;
+    margin: auto;
+   
+.header_aboutritm{
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    margin-bottom: 166px;
+
+
+    :nth-last-child(1){
+        transform: scale(-1, 1);
+}
+h6{
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    color: white;
+    
+}
+ }
+
+.first_container_aboutritm{
+    display: flex;
+    gap: 84px;
+    align-items: center;
+    margin-bottom: 100px;
+    .first_container_aboutritm_block_p{
+        h1{
+            font-family: 'Proxima Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 140%;
+            color: white;
+            margin-bottom: 30px;
+        }
+        p{
+            color: white;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 140%;
+        }
+        width: 466px;
+    }
+}
+.second_container_aboutritm{
+    display: flex;
+    align-items: center;
+    gap: 84px;
+    .second_container_aboutritm_block_p{
+        h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            color: white;
+            margin-bottom: 30px;
+        }
+        p{
+            color: white;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 140%;
+        }
+        width: 466px;
+    }
+}
+ 
+
+}
+
+    .aboutritm_first_img{
+        transition: transform 0.2s;
+        width: 526px;
+        height: 365px;
+        background: url(../img/Rectangle.png);
+    // transform: rotateX('20deg');
+    }
+    
+    
+    
+    .aboutritm_second_img{
+        background: url(../img/Rectanglesec.png);
+        transition: transform 0.2s;
+        width: 526px;
+        height: 400px;
+        // transform: rotateX('20deg');
+    }
+    .img_aboutritm{
+         transition: transform 0.2s;
+    }
+    .containers_aboutritm{
+        perspective: 1000px;
+    transform-style: preserve-3d;
+    }
